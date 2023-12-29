@@ -3,9 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: rgb(179, 254, 255);
-}
-
+  background-color: #B0FFFC;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");}
 
 header{
   background-color: #085d70;
@@ -37,8 +36,8 @@ footer{
 .main_image {
   margin-left: 2rem;
   margin-right: 2rem;
-  width: 20rem;
-  height: 20rem;
+  width:17.5rem;
+  height: 17.5rem;
   object-fit: cover;
 }
 
@@ -56,7 +55,7 @@ footer{
 
 form .box{
   padding:0.5rem;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 0.75rem 1rem 0.75rem 1rem;
   background: white;
   font-size: 1.25rem;
   width: 24rem;
@@ -74,7 +73,7 @@ form .box::placeholder{
 
 .input-form-row .box1{
   padding:0.5rem;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 0.75rem 1rem 0.75rem 1rem;
   background: white;
   color: #51ada8;
   text-transform: none;
@@ -135,7 +134,7 @@ form .box::placeholder{
   border-radius: 5rem;
   border-color: none;
   border-width: 0;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .btn:hover{

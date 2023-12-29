@@ -36,7 +36,7 @@ const CountryInput = ({ onSelect }) => {
         control: (provided, state) => ({
           ...provided,
           display:'flex',
-          margin: '1rem 0 1rem 1rem',
+          margin: '0.75rem 0 0.75rem 1rem',
           background: 'white',
           color: '#51ada8',
           textTransform: 'none',
