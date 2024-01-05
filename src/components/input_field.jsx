@@ -32,7 +32,7 @@ const Input = () => {
     const handlePrediction =  async(event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('http://127.0.0.1:8000/api/predict_salary/', input);
+            const response = await axios.post('https://salary-predictor-backend.onrender.com/api/predict_salary/', input);
             if (response && response.data && response.data['prediction']) {
                 const predictedSalaryValue = response.data['prediction'];
                 const formattedSalary = parseFloat(predictedSalaryValue).toFixed(2);
