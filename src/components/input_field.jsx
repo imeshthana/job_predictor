@@ -3,7 +3,6 @@ import axios from 'axios';
 import CountryInput from './countryInput';
 
 const Input = () => {
-    //const [selectedCountry, setSelectedCountry] = useState('');
     const [input, setInput] = useState({
         jobTitle: '',
         workYear: '',
